@@ -1,0 +1,55 @@
+body{
+    background-image: url(images/piano.png);
+    background-size: cover;
+}
+
+.container {
+    width: 85%;
+    margin: 2% auto 3% auto;
+    text-align: center;
+}
+
+button{
+    background-color: #fff;
+    height: 210px;
+    border-color: black;
+    width: 4.5%;
+    margin: -2px;
+    border-radius: 0 0 8px 8px;
+    font-family: cursive;
+    box-shadow: 5px 5px 5px;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+h1{
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    font-size: 3rem;
+    color: #000;
+    margin-bottom: 17px;
+}
+
+.notes{
+    width: 50%;
+    margin: auto 365px;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+  }
+  
+@media (max-width: 1521px) {
+    #title{
+        text-align: center;
+    }
+    button{
+        position: static;
+        width: 5%;
+    }
+    .notes{
+        width: 40%;
+        margin: auto 300px;
+    }
+}
